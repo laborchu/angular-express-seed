@@ -1,7 +1,6 @@
-# 币新CRM
+# angular express seed
 
 ```
-npm install #安装包 或cnpm
-npm start #启动前端工作流
-node app.server.dev.js #启动后台服务
+npm install 
+npm start
 ```
