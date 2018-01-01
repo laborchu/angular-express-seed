@@ -33,9 +33,6 @@ if (process.env.ENV == 'dev') {
         }
     }));
     app.use(webpackHotMiddleware(compiler));
-    var reload = require('reload');
-    var server = http.createServer(app);
-    reload(server, app);
 }
 
 app.use(express.static(path.join(__dirname, '../../dist')));
